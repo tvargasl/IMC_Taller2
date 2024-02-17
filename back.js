@@ -51,9 +51,10 @@ function calcularIMC() {
     }else{
 
     let IMC = pesoUsuario / (alturaUsuario * alturaUsuario)
+    let IMC_aprox = IMC.toFixed(2);
 
-    asignarTextoElemento('#parrafoCalculo', `Su calculo del IMC es: ${IMC}`)
-    conclusion(IMC)
+    asignarTextoElemento('#parrafoCalculo', `Su calculo del IMC es: ${IMC_aprox}`)
+    conclusion(IMC_aprox)
 
 
 
