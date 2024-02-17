@@ -11,13 +11,20 @@
     </header>
     <div class="container_formulario">
         <p class="altura">Ingrese la altura(m)</p>
-        <input class="input_altura">
+        <input type="number" id="altura_valor" min="1" class="input_altura">
+
         <p class="peso">Ingrese el peso(kg)</p>
-        <input class="input_peso">
+        <input type="number" id="peso_valor" min="1" class="input_peso">
     </div>
     <div class="container_boton">
-        <button class="boton_confirmar">Confirmar</button>
+        <button onclick="calcularIMC();" class="boton_confirmar">Confirmar</button>
     </div>
+
+    <div class="container_calculo">
+        <p id="parrafoCalculo"></p>
+    </div>
+
+    <script src="back.js"></script>
 
 
     
