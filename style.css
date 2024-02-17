@@ -28,5 +28,9 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(2,50%);
+    gap: 0.5rem; 
 
+}
+.boton_confirmar{
+    margin-top: 2rem;
 }
