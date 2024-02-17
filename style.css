@@ -1,0 +1,32 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #00abfb;
+    --secundario: #073e86;
+    --gris: #757575;
+    --grisclaro: #dfe9f3
+}
+html{
+    font-size: 62.5%; /* 1rem=10px */
+    box-sizing: border-box; /* hack para que las dimensiones de las cajas sea la correcta */
+    scroll-snap-type: y mandatory;
+}
+body{
+    font-size: 16px;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+}
+.container_formulario {
+    background-color: var(--grisclaro);
+    width: min(40rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.container_campos{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2,50%);
+
+}
