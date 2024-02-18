@@ -34,3 +34,9 @@ body{
 .boton_confirmar{
     margin-top: 2rem;
 }
+
+#guardarConsulta,
+#volverCedulaHistorial {
+    margin: 0 auto; /* Esto centrará horizontalmente los elementos */
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
